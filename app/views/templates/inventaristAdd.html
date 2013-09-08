@@ -1,0 +1,14 @@
+<div class="inventarist-add-button">
+    <button class="button" ng-click="toggle()">Tambah product</button>
+
+    <div ng-class="{show: show}" class="inventarist-add-form">
+        <form ng-submit="addProduct()">
+            Nama: <input type="text" ng-model="product.name">
+            Quantity: <input type="text" ng-model="product.quantity">
+            Limit: <input type="text" ng-model="product.limit">
+
+            <button>Tambah!</button>
+        </form>
+    </div>
+
+</div>
