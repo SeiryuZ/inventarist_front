@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('inventaristFrontApp', [])
+angular.module('inventaristFrontApp', ['ngResource'])
   .config(function ($routeProvider) {
     $routeProvider
       .when('/', {
