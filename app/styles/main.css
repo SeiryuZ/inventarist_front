@@ -22,3 +22,21 @@ body {
     display: block;
 }
 
+
+input.ng-pristine {
+    -moz-box-shadow:    0 0 2px 0 #AFEEEE;
+    -webkit-box-shadow: 0 0 2px 0 #AFEEEE;
+    box-shadow:         0 0 2px 0 #AFEEEE;
+}
+
+input.ng-valid.ng-dirty {
+    -moz-box-shadow:    0 0 2px 0 #83F52C;
+    -webkit-box-shadow: 0 0 2px 0 #83F52C;
+    box-shadow:         0 0 2px 0 #83F52C;
+}
+
+input.ng-invalid.ng-dirty {
+    -moz-box-shadow:    0 0 4px 0 red;
+    -webkit-box-shadow: 0 0 4px 0 red;
+    box-shadow:         0 0 4px 0 red;
+}

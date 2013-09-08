@@ -3,9 +3,9 @@
 
     <div ng-class="{show: show}" class="inventarist-add-form">
         <form ng-submit="addProduct()">
-            Nama: <input type="text" ng-model="product.name">
-            Quantity: <input type="text" ng-model="product.quantity">
-            Limit: <input type="text" ng-model="product.limit">
+            Nama: <input type="text" ng-model="product.name" ng-text required>
+            Quantity: <input type="number" ng-model="product.quantity" min="0" required>
+            Limit: <input type="number" ng-model="product.limit" min="0" required>
 
             <button>Tambah!</button>
         </form>
